@@ -1,1 +1,23 @@
 @import '~normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  font-family: 'Pacifico', cursive;
+  letter-spacing: 0.15em;
+  word-spacing: 15px;
+  color: blue;
+  background: var(#{--body-background-default});
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
