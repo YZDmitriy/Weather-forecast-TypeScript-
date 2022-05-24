@@ -1,5 +1,5 @@
 import {Routes, Route} from 'react-router-dom'
-import Home from './Pages/Home/components/Home';
+import Home from './Pages/Home/Home';
 import { MonthStatistics } from './Pages/MonthStatistics/MonthStatistics/MonthStatistics';
 import Header from './shared/Header/Header';
 
