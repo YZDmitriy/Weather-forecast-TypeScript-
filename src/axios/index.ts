@@ -12,4 +12,3 @@ api.interceptors.request.use(config => {
 
 export default api;
 
-// 017847ecf206b9309706cddcf349e8e5
