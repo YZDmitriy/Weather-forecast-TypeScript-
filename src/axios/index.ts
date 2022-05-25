@@ -1,3 +1,4 @@
+/* eslint-disable no-useless-concat */
 import axios from 'axios';
 
 const api = axios.create({

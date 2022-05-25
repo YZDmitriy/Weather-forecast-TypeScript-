@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect } from 'react';
 import { useCustomDispatch, useCustomSelector } from '../../hooks/store';
 import { selectCurrentWeatherData } from '../../store/selectors';
@@ -14,7 +15,7 @@ export const Home = () => {
   const { weather } = useCustomSelector(selectCurrentWeatherData);
 
   useEffect(() => {
-    dispatch(fetchCurrentWeather('paris'));
+    dispatch(fetchCurrentWeather('moscow'));
   }, []);
 
   return (

@@ -1,9 +1,14 @@
-# Getting Started with Create React App
+# Сайт подробного пронгоза погоды 
+(находится на стадии доработки)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![light theme](https://github.com/jon/coolproject/raw/master/image/image.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![dark theme](https://github.com/jon/coolproject/raw/master/image/image.png)
+
+
+Чтобы запустить, необходимо в корневой папке запустить 2 команды:
+
+npm i
+
+npm start

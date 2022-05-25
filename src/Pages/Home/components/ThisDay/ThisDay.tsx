@@ -27,7 +27,7 @@ let Minutes = Data.getMinutes();
         Time: <span>{`${Hour}:${Minutes}`}</span>
         </div>
         <div className={s.this__city}>
-          City: <span>Санкт-Петербург</span>
+          City: <span>Москва</span>
         </div>
       </div>
     </div>
