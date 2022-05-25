@@ -31,9 +31,9 @@ function Header(props: Props) {
     // }),
   };
 
-  // function changeTheme() {
-  //   theme.changeTheme(theme.theme === Theme.LIGHT ? Theme.DARK : Theme.LIGHT);
-  // }
+  function changeTheme() {
+    theme.changeTheme(theme.theme === Theme.LIGHT ? Theme.DARK : Theme.LIGHT);
+  }
 
   return (
     <header className={s.header}>
@@ -42,7 +42,7 @@ function Header(props: Props) {
       <div className={s.title}>Weather forecast</div>
       </div>
       <div className={s.wrapper}>
-        <div className={s.change_theme} >
+        <div className={s.change_theme} onClick={changeTheme}>
           <GlobalSvgSelector id="change-theme" />
         </div>
           <Select 
