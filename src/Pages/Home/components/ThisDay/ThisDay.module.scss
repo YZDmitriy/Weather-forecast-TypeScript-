@@ -26,14 +26,14 @@
   }
   .this__day_name {
     font-size: 40px;
-    // color: var(#{--text-color-default});
+    color: var(#{--text-color-default});
   }
 }
 
 .bottom__block {
   .this__time,
   .this__city {
-    // color: $base-color;
+    color: $base-color;
     font-size: 25px;
   }
 }
